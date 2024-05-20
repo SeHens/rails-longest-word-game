@@ -13,3 +13,22 @@
  *= require_tree .
  *= require_self
  */
+
+ /* app/assets/stylesheets/application.css */
+.letters {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .letter {
+    display: inline-block;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    background-color: #333;
+    border-radius: 5px;
+  }
+  
+  
